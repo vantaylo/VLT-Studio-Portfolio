@@ -1,11 +1,12 @@
-import AboutMe from "../src/Components/AboutMe";
-import ScratchGame from "../src/Components/ScratchGame";
+import DiveIn from "../src/Components/DiveIn";
+import Explore from "../src/Components/Explore";
 
 export default function Page() {
   return (
     <div>
-      <AboutMe />
-      <ScratchGame/>
+      <DiveIn />
+      <Explore/>
     </div>
   );
 }
+
