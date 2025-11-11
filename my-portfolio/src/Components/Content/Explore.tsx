@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
 
 const Explore = () => {
   return (
