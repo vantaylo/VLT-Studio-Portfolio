@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional utility for the hero’s left→right gradient */
+@layer utilities {
+  .bg-sunrise-nightfall {
+    background: linear-gradient(
+      90deg,
+      #FFF1E6 0%,
+      #FFD166 14%,
+      #FDBA74 26%,
+      #FB7185 42%,
+      #C084FC 58%,
+      #7C3AED 76%,
+      #312E81 90%,
+      #0B1220 100%
+    );
+  }
+}
+
+/* Optional: nicer scrollbars (WebKit) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
+
+.galaxy-mask {
+  background: url('/images/galaxy-bg.jpg'); /* same galaxy texture */
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800"><path d="M0,450 C360,380 720,520 1080,420 C1260,380 1440,480 1440,480 L1440,800 L0,800 Z" fill="white"/><path d="M0,500 C360,420 720,560 1080,460 C1260,420 1440,520 1440,520 L1440,800 L0,800 Z" fill="white"/><path d="M0,550 C360,460 720,600 1080,500 C1260,460 1440,560 1440,560 L1440,800 L0,800 Z" fill="white"/></svg>');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800"><path d="M0,450 C360,380 720,520 1080,420 C1260,380 1440,480 1440,480 L1440,800 L0,800 Z" fill="white"/><path d="M0,500 C360,420 720,560 1080,460 C1260,420 1440,520 1440,520 L1440,800 L0,800 Z" fill="white"/><path d="M0,550 C360,460 720,600 1080,500 C1260,460 1440,560 1440,560 L1440,800 L0,800 Z" fill="white"/></svg>');
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}
