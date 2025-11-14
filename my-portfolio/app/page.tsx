@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react';
+import FloatingArea from '../src/Components/Layout/FloatingArea';
 import Footer from '../src/Components/Layout/Footer';
 import Hero from '../src/Components/Layout/Hero';
 import ScrollProgress from '../src/Components/Layout/ScrollProgress';
@@ -13,6 +14,7 @@ export default function Page() {
       <Hero />
       <main className={classes.main}>
         <Stars />
+        <FloatingArea />
         <Footer />
       </main>
     </div>
