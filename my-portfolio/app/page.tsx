@@ -11,9 +11,9 @@ export default function Page() {
   return (
     <div>
       <ScrollProgress />
-      <Hero />
       <main className={classes.main}>
         <Stars />
+        <Hero />
         <FloatingArea />
         <Footer />
       </main>
