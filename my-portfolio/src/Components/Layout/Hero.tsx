@@ -1,6 +1,6 @@
 import React from 'react';
 import Stars from './Stars';
-import ProfileImg from './ProfileImg'; 
+import ProfileImg from '../../assets/profilepic.png'; 
 
 const Hero: React.FC = () => {
   // Hourglass layout 
