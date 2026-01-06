@@ -21,20 +21,23 @@ The purpose of this portfolio is to:
 ## **Goals and Requirements**
 
 1. **Responsive and Mobile-First Design**
+
    - Ensure that the portfolio is fully responsive, accessible on desktop and mobile.
-2. **Showcase Full Stack Development**
+     
+3. **Showcase Full Stack Development**
 
    - Display both frontend and backend projects.
 
-3. **Playful, Creative, and Professional Design**
+5. **Playful, Creative, and Professional Design**
 
    - Focus on a vibrant, user-friendly design with intuitive navigation, blending creativity with clarity.
 
-4. **Include Interactive Components**
+6. **Include Interactive Components**
 
    - Add animations.
+   - Scratch Project/Game
 
-5. **SEO and Accessibility**
+7. **SEO and Accessibility**
    - Implement SEO best practices (meta tags, headings, alt text for images).
    - Ensure accessibility (screen reader support, keyboard navigation).
 
@@ -49,10 +52,6 @@ The purpose of this portfolio is to:
 - Create Github repository. ✅
 - Define portfolio goals and target audience. ✅
 - Sketch rough wireframes for key pages (Home, About, Projects, Contact). ✅
-  ![Site Wireframe A](/my-portfolio/public/WF1.JPG)
-  ![Site Wireframe B](/my-portfolio/public/WF2.JPG)
-  ![Loading Page and Toolbar Component Wireframe](/my-portfolio/public/WF_Loading_Toolbar.jpg)
-
 - Create a Website Policy:
   - Add a Privacy Policy: Outline how user data is collected, used, and protected (forms and/or tracking).
   - Add a Terms of Service (if applicable): Define the terms under which users interact with your site.
@@ -60,9 +59,9 @@ The purpose of this portfolio is to:
 
 #### Setup Development Environment
 
-- Set up Node.js, React, Next.js, and TypeScript.
-- Initialize Git and set up version control.
-- Set up hosting services.
+- Set up Node.js, React, Next.js, and TypeScript. ✅
+- Initialize Git and set up version control. ✅
+- Set up hosting services. ✅
 
 #### Backend Setup
 
@@ -80,12 +79,12 @@ The purpose of this portfolio is to:
 
 #### Basic Layout and Routing
 
-- Create pages.
-- Implement React components and use Next.js routing.
+- Create pages. ✅
+- Implement React components and use Next.js routing. ✅
 
 #### Styling and UI Components
 
-- Set up global styles (CSS modules, Tailwind).
+- Set up global styles (CSS modules, Tailwind). ✅
 - Design reusable UI components.
 
 #### Fetch Data for Projects
@@ -129,7 +128,7 @@ The purpose of this portfolio is to:
 #### Deployment Setup
 
 - Deploy backend to Vercel.
-- Deploy frontend to Vercel.
+- Deploy frontend to Vercel.  ✅
 
 #### Final Testing and Review
 
