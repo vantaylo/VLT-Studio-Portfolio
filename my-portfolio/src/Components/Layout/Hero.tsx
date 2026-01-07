@@ -1,6 +1,5 @@
 import React from 'react';
 import Stars from './Stars';
-import ProfileImg from '../../assets/profilepic.png'; 
 
 const Hero: React.FC = () => {
   // Hourglass layout 
@@ -16,13 +15,11 @@ const Hero: React.FC = () => {
 
   return (
     <div className={classes.heroContainer}>
-      <div style={topStyle}   className={classes.sunriseSunsetBackground}>
-        <ProfileImg/>
+      <div style={topStyle} className={classes.sunriseSunsetBackground}>
       </div>
       <div style={rightStyle} className={classes.sunriseSunsetBackground}></div>
       <div style={leftStyle} className={classes.sunriseSunsetBackground} />
       <div style={bottomStyle}>
-        <Stars />
       </div>
     </div>
   );
@@ -30,5 +27,4 @@ const Hero: React.FC = () => {
 
 export default Hero;
 
-// <p>Vanessa Taylor</p>
 // <p>Bridging imagination and implementation</p>
